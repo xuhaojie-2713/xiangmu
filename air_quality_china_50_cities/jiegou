@@ -1,0 +1,23 @@
+air_quality_viz/
+├── data/                          # 原始与预处理后数据
+│   ├── raw/                       # 原始下载数据
+│   │   └── china_50_cities.csv        # 原始数据文件
+│   └── processed/                 # 清洗与合并后数据
+│       └── china_50_cities.csv  # 清洗后的数据文件
+├── notebooks/                     # 分析与可视化笔记本
+│   ├── 01_data_overview.ipynb     # 数据概览与清洗
+│   ├── 02_statistical_analysis.ipynb # 描述性统计与相关性分析
+│   ├── 03_clustering.ipynb        # 聚类分析
+│   └── 04_calendar_trend.ipynb    # 日历图、趋势图等
+├── scripts/                       # Python 脚本
+│   ├── data_preprocess.py         # 数据预处理脚本
+│   ├── analysis.py                # 核心分析函数
+├── streamlit_app/                 # Streamlit 可视化 Web 应用
+│   └── app.py                     # Streamlit Web 应用脚本
+│   └── viz.py                     # pyecharts 可视化函数
+├── tableau/                       # Tableau 可视化文件
+│   └── 可视化-china.twbx   # Tableau 可视化项目文件
+├── reports/                       # 报告与文档
+│   └── final_report.md            # 最终报告文件
+├── requirements.txt               # Python 依赖文件
+└── README.md                      # 项目说明文件
